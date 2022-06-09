@@ -5,62 +5,116 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title>Document</title>
 </head>
 
-<body>
-  <header>
-    <h1>Chembaiev Yehor</h1>
-    <div>
-      <h4>Contact information:</h4>
-      <p><span>Phone number</span> +380661930422</p>
-      <p><span>Email</span> chegoshka@gmail.com</p>
-    </div>
-  </header>
+<body id="top">
+  <div class="wrapper">
+    <nav class="navigate">
+      <ul class="navigate-ul">
+        <li class="navigate-element "><a class="navigate-element-link" href="#my-contact">Contact</a></li>
+        <li class="navigate-element"><a class="navigate-element-link" href="#about-me">About me</a></li>
+        <li class="navigate-element"><a class="navigate-element-link" href="#my-code-examples">Code examples</a></li>
+        <li class="navigate-element"><a class="navigate-element-link" href="#my-education">Education</a></li>
+      </ul>
+    </nav>
 
-  <main>
-    <section>
-      <h2>Hello! My name is Yehor.</h2>
-      <p>I’m just learning to program now and try to find out as much information as possible that will help me with this.</p>
+    <a class="arrow" href="#top" id="page-up">&#11014;</a>
 
-      <div>
-        <h4>My positive traits include</h4>
-        <ul>
-          <li>Great persistence in achieving the goal, despite the difficulties.</li>
-          <li>Good perception of information related to the IT sphere.</li>
-          <li> Friendly :)</li>
-          <li>I love meeting new people.</li>
-        </ul>
+    <header id="my-contact">
+      <img class="avatar"
+        src="https://files2.dp.ua/ru/i/a727613d0a2990f28408a41df0924160/6a8b1db972d73ffc8bd8fc5ee3079161"
+        alt="my-photo">
+      <h1 class="text-center header-name">Chembaiev Yehor</h1>
+      <div class="contact">
+        <p><span class="bold-text">Phone number:</span> +380661930422</p>
+        <p><span class="bold-text">Email:</span> chegoshka@gmail.com</p>
       </div>
+    </header>
 
-      <div>
-        <h4>My goals</h4>
-        <ul>
-          <li>To Learn as quickly and efficiently as possible</li>
-          <li>To Move forward in the IT field.</li>
-          <li>To work where it is really interesting and useful both for my development and for the development of technologies!</li>
-        </ul>
-      </div>
+    <main>
+      <section class="skills-section" id="about-me">
+        <h2 class="text-center bold-text">About me</h2>
+        <p><span class="bold-text">Hello! My name is Yehor.</span> Trainee Frontend developer.
+          I know well CSS: flex, grid; HTML5, mobile first layout,
+          basic knowledge of JS, React, TypeScript, Redux.
+          Now I continue to study React in more depth.</p>
 
-      <div>
-        <h4>My skills</h4>
-        <ol>
-          <li>HTML<img src="https://fv20.failiem.lv/thumb_show.php?i=spzrav4pq&view" alt="HTML-IMG"></li>
-          <li>CSS<img src="https://fv20.failiem.lv/thumb_show.php?i=bt24ymmhf&view" alt="CSS-IMG"></li>
-          <li>JS<img src="https://fv20.failiem.lv/thumb_show.php?i=x6hdvptmd&view" alt="JS-IMG"></li>
-          <li>REACT<img src="https://fv20.failiem.lv/thumb_show.php?i=ffjszd7ej&view" alt="REACT-IMG"></li>
-          <li>TypeScrypt<img src="https://fv20.failiem.lv/thumb_show.php?i=7fgh42rd6&view" alt="TypeScrypt-IMG"></li>
-        </ol>
-      </div>
+        <div>
+          <h3 class="margin-bottom-0">My positive traits include:</h3>
+          <ul class="margin-top">
+            <li>Great persistence in achieving the goal, despite the difficulties.</li>
+            <li>Good perception of information related to the IT sphere.</li>
+            <li> Friendly :)</li>
+            <li>I love meeting new people.</li>
+          </ul>
+        </div>
 
-      <div>
-        <h4>My code examples:</h4>
-        <span> HTML
-          <img src="https://fv20.failiem.lv/thumb_show.php?i=bsa5csa59&view" alt="HTML_PREV">
-        </span>
+        <div>
+          <h3 class="margin-bottom-0">My goals:</h3>
+          <ul class="margin-top">
+            <li>To Learn as quickly and efficiently as possible</li>
+            <li>To Move forward in the IT field.</li>
+            <li>To work where it is really interesting and useful both for my development and for the development of
+              technologies!</li>
+          </ul>
+        </div>
 
-        <div>CSS
-          <pre><code>
+        <div>
+          <h3 class="margin-bottom-0">My skills:</h3>
+          <ol class="margin-top">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>REACT</li>
+            <li>TypeScrypt</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="code-examples-section" id="my-code-examples">
+        <h2>My code examples:</h2>
+        <div>
+          <div class="code-example-headers-wrapper">
+            <img class="image-width-code" src="https://fv20.failiem.lv/thumb_show.php?i=spzrav4pq&view" alt="HTML-IMG">
+            <span class="margin-left bold-text">HTML</span>
+          </div>
+          <pre class="code-style"><code>
+              &lt;section id="table"&gt;
+                &lt;h2&gt;&gt;Table&lt;/h2&gt;
+                &lt;table&gt;
+                  &lt;tr&gt;
+                    &lt;th&gt;Header&lt;/th&gt;
+                    &lt;th&gt;Header&lt;/th&gt;
+                    &lt;th&gt;Header&lt;/th&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                    &lt;td&gt;Lviv&lt;/td&gt;
+                    &lt;td&gt;Kyiv&lt;/td&gt;
+                    &lt;td&gt;Kharkiv&lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                    &lt;td&gt;Odessa&lt;/td&gt;
+                    &lt;td&gt;Zhytomyr&lt;/td&gt;
+                    &lt;td&gt;Dnipropetrovsk&lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                     &lt;td&gt;Sumy&lt;/td&gt;
+                     &lt;td&gt;Chernivtsi&lt;/td&gt;
+                     &lt;td&gt;Lutsk&lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+              &lt;/section&gt;
+            </code></pre>
+        </div>
+
+        <div>
+          <div class="code-example-headers-wrapper">
+            <img class="image-width-code" src="https://fv20.failiem.lv/thumb_show.php?i=bt24ymmhf&view" alt="CSS-IMG">
+            <span class="margin-left bold-text">CSS</span>
+          </div>
+          <pre class="code-style"><code>
             @media print {
               .tm-sidebar, .tm-content-box, .blocks {
                 display: none;
@@ -105,8 +159,12 @@
           </code></pre>
         </div>
 
-        <div>JS
-          <pre><code>
+        <div>
+          <div class="code-example-headers-wrapper">
+            <img class="image-width-code" src="https://fv20.failiem.lv/thumb_show.php?i=x6hdvptmd&view" alt="JS-IMG">
+            <span class="margin-left bold-text">JS</span>
+          </div>
+          <pre class="code-style"><code>
             class ReadyForPushNotification {
               constructor(magazine) {
                 this.magazine = magazine;
@@ -140,8 +198,12 @@
           </code></pre>
         </div>
 
-        <div>REACT
-          <pre><code>
+        <div>
+          <div class="code-example-headers-wrapper">
+            <img class="image-width-code" src="https://fv20.failiem.lv/thumb_show.php?i=ffjszd7ej&view" alt="REACT-IMG">
+            <span class="margin-left bold-text">REACT</span>
+          </div>
+          <pre class="code-style"><code>
             import { useCallback } from 'react';
             import { useDispatch } from 'react-redux';
 
@@ -173,8 +235,13 @@
           </code></pre>
         </div>
 
-        <div>TypeScrypt
-          <pre><code>
+        <div>
+          <div class="code-example-headers-wrapper">
+            <img class="image-width-code" src="https://fv20.failiem.lv/thumb_show.php?i=7fgh42rd6&view"
+              alt="TypeScrypt-IMG">
+            <span class="margin-left bold-text">TypeScrypt</span>
+          </div>
+          <pre class="code-style"><code>
             declare interface Course {
               id: string;
               title: string;
@@ -185,27 +252,36 @@
             }
           </code></pre>
         </div>
-      </div>
 
-      <div>
-        <h4>My education</h4>
-        <ol>
-          <li><a href="https://training.epam.ua/#!/Home?lang=ua">EPAM Frontend Winter 2021</a></li>
-          <li><a href="https://ru.code-basics.com/languages/html">Code Basics HTML</a></li>
-          <li><a href="https://ru.code-basics.com/languages/css">Code Basics CSS</a></li>
-          <li><a href="https://ru.code-basics.com/languages/javascript">Code Basics JS</a></li>
-          <li><a href="https://learn.javascript.ru/">Learn JS</a></li>
-        </ol>
-      </div>
+      </section>
 
-      <div>
-        <h4>My Language LvL</h4>
-        <p><span>English :</span>A1</p>
-        <p><span>Russian :</span>Native</p>
-        <p><span>Ukrainian :</span>Native</p>
-      </div>
-    </section>
-  </main>
+      <section class="education-section" id="my-education">
+        <div class="education-width">
+          <h3 class="margin-bottom-0">My education:</h3>
+          <ol class="margin-top">
+            <li class="margin-bottom-5"><a class="link-button" target="_blank"
+                href="https://training.epam.ua/#!/Home?lang=ua">EPAM Frontend Winter 2021</a></li>
+            <li class="margin-bottom-5"><a class="link-button" target="_blank"
+                href="https://ru.code-basics.com/languages/html">Code Basics HTML</a></li>
+            <li class="margin-bottom-5"><a class="link-button" target="_blank"
+                href="https://ru.code-basics.com/languages/css">Code Basics CSS</a></li>
+            <li class="margin-bottom-5"><a class="link-button" target="_blank"
+                href="https://ru.code-basics.com/languages/javascript">Code Basics JS</a></li>
+            <li class="margin-bottom-5"><a class="link-button" target="_blank" href="https://learn.javascript.ru/">Learn
+                JS</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h3 class="margin-bottom-0">My Language LvL:</h3>
+          <p><span class="bold-text">English : </span>A1</p>
+          <p><span class="bold-text">Russian : </span>Native</p>
+          <p><span class="bold-text">Ukrainian : </span>Native</p>
+        </div>
+      </section>
+    </main>
+
+  </div>
 </body>
 
 </html>
