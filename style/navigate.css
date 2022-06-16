@@ -1,0 +1,17 @@
+.navigate {
+  max-width: 527px;
+  flex-grow: 1;
+}
+
+.nav-element-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-element-link {
+  color: var(--color-FFFFFF);
+  font-family: var(--font-family-red-hat-text);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-21);
+}
