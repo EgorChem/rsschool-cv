@@ -15,6 +15,7 @@
 .logo-wrapper {
   display: flex;
   align-items: flex-start;
+  margin-left: 39px;
 }
 
 .logo-img {
@@ -38,5 +39,6 @@
   color: var(--color-FFFFFF);
   max-width: 103px;
   height: 41px;
+  margin-right: 36px;
 }
 

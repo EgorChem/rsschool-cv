@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="UTF-8">
@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./style/header.css">
   <link rel="stylesheet" href="./style/main.css">
   <link rel="stylesheet" href="./style/footer.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -27,33 +28,163 @@
       </div>
       <nav class="navigate">
         <ul class="nav-element-wrapper">
-          <li class="nav-element"><a class="nav-element-link" href="">How It Works</a></li>
-          <li class="nav-element"><a class="nav-element-link" href="">Plan Your Trip</a></li>
-          <li class="nav-element"><a class="nav-element-link" href="">Destinations</a></li>
-          <li class="nav-element"><a class="nav-element-link" href="">Travel Stories</a></li>
+          <li class="nav-element"><a class="nav-element-link" href="#how-it">How It Works</a></li>
+          <li class="nav-element"><a class="nav-element-link" href="#plan-your">Plan Your Trip</a></li>
+          <li class="nav-element"><a class="nav-element-link" href="#destinations">Destinations</a></li>
+          <li class="nav-element"><a class="nav-element-link" href="#travel">Travel Stories</a></li>
         </ul>
       </nav>
       <button class="header-button button-style">Login</button>
     </header>
 
     <main class="main">
-      <section class="head-section">
+      <section class="head-section" id="how-it">
         <div class="head-section-content">
-          <h1 class="head-section-header" >Explore the beauty of the World</h1>
-          <p class="head-section-text">Receive personalized recommendations for countries, hotels, activities and more</p>
+          <h1 class="head-section-header">Explore the beauty of the World</h1>
+          <p class="head-section-text">Receive personalized recommendations for countries, hotels, activities and more
+          </p>
           <form class="head-section-form">
             <input class="head-section-form-input" placeholder="What would you like to do?" type="text">
             <button class="head-section-form-button button-style">Start Planning</button>
           </form>
         </div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="steps-section" id="plan-your">
+        <h2 class="section-header">3 STEPS TO THE PERFECT TRIP</h2>
+        <div class="steps-section-content">
+          <div class="steps-section-image-text-wrapper">
+            <div class="steps-section-img-wrapper">
+              <img class="steps-section-img" src="./img/bicycle.svg" alt="bicycle">
+            </div>
+            <p class="steps-section-text">Tell us what you want to do</p>
+          </div>
+
+          <div class="steps-section-image-text-wrapper steps-section-margin-left-img">
+            <div class="steps-section-img-wrapper">
+              <img class="steps-section-img" src="./img/calendar.svg" alt="calendar">
+            </div>
+            <p class="steps-section-text">Share us preferable dates</p>
+          </div>
+
+          <div class="steps-section-image-text-wrapper">
+            <div class="steps-section-img-wrapper">
+              <img class="steps-section-img" src="./img/airplane.svg" alt="airplane">
+            </div>
+            <p class="steps-section-text">We will give you recommendations</p>
+          </div>
+        </div>
+      </section>
+      <section class="popular-section" id="destinations">
+        <h2 class="section-header">POPULAR DESTINATIONS</h2>
+        <div class="popular-section-content-wrapper">
+          <div class="popular-section-img-text-wrapper margin-right-img">
+            <img class="popular-section-img" src="./img/popular-block-img-1.jpg" alt="img-1">
+            <p class="popular-section-text">SPAIN</p>
+          </div>
+
+          <div class="popular-section-img-text-wrapper margin-right-img">
+            <img class="popular-section-img" src="./img/popular-block-img-2.jpg" alt="img-2">
+            <p class="popular-section-text">JAPAN</p>
+          </div>
+
+          <div class="popular-section-img-text-wrapper">
+            <img class="popular-section-img " src="./img/popular-block-img-3.jpg" alt="img-3">
+            <p class="popular-section-text">USA</p>
+          </div>
+        </div>
+        <div class="popular-section-circles-wrapper">
+          <span class="circle"></span>
+          <span class="circle orange-circle"></span>
+          <span class="circle"></span>
+        </div>
+        <div class="popular-section-button-arrow-wrapper">
+          <button class="popular-section-button button-style button-hover">Find More</button>
+          <img class="arrow-absolute" src="./img/arrow.svg" alt="arrow">
+        </div>
+      </section>
+      <section class="travel-section" id="travel">
+        <h2 class="section-header">TRAVEL STORIES</h2>
+        <div class="travel-section-content-wrapper">
+          <div class="travel-section-all-photo-text-wrapper">
+            <div class="travel-section-photo-text-wrapper margin-top-30">
+              <img class="travel-section-img" src="./img/travel-block-img-1.jpg" alt="travel-img-1">
+              <div class="travel-section-text-wrapper">
+                <h2 class="travel-section-text-header">10 Photos of Attractive Thailand</h2>
+                <p class="travel-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit... <a class="travel-section-text-link" href="#">Read More</a></p>
+              </div>
+            </div>
+            <div class="travel-section-photo-text-wrapper">
+              <img class="travel-section-img" src="./img/travel-block-img-2.jpg" alt="travel-img-2">
+              <div class="travel-section-text-wrapper">
+                <h2 class="travel-section-text-header">Canyonlands National Park, Utah</h2>
+                <p class="travel-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit... <a class="travel-section-text-link" href="#">Read More</a></p>
+              </div>
+            </div>
+            <div class="travel-section-photo-text-wrapper">
+              <img class="travel-section-img" src="./img/travel-block-img-3.jpg" alt="travel-img-3">
+              <div class="travel-section-text-wrapper">
+                <h2 class="travel-section-text-header">I left my heart in the Mountains!</h2>
+                <p class="travel-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit... <a class="travel-section-text-link" href="#">Read More</a></p>
+              </div>
+            </div>
+            <div class="travel-section-photo-text-wrapper travel-section-photo-text-wrapper-margin-bottom">
+              <img class="travel-section-img" src="./img/travel-block-img-4.jpg" alt="travel-img-4">
+              <div class="travel-section-text-wrapper">
+                <h2 class="travel-section-text-header">The Longest journey in my life!</h2>
+                <p class="travel-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit... <a class="travel-section-text-link" href="#">Read More</a></p>
+              </div>
+            </div>
+            <div class="popular-section-button-arrow-wrapper popular-section-button-margin-bottom">
+              <button class="popular-section-button button-style button-hover">See More</button>
+              <img class="arrow-absolute" src="./img/arrow.svg" alt="arrow">
+            </div>
+          </div>
+          <div class="travel-section-height-block"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-
+      <div class="footer-content-wrapper">
+        <p class="footer-text">All Rights Reserved © Travel Portal</p>
+        <ul class="footer-icon-text-wrapper">
+          <li>
+            <a class="footer-link footer-logo-1" target="_blank" href="https://github.com/EgorChem">
+              <img class="footer-logo footer-logo-1" src="./img/instagram.svg" alt="logo-course">
+            </a>
+          </li>
+          <li>
+            <a class="footer-link footer-logo-2" target="_blank" href="https://rs.school/js-stage0/">
+              <img class="footer-logo footer-logo-2" src="./img/youtube.svg" alt="logo-course">
+            </a>
+          </li>
+          <li>
+            <a class="footer-link footer-logo-3" target="_blank" href="https://rs.school/js-stage0/">
+              <img class="footer-logo footer-logo-3" src="./img/twitter.svg" alt="logo-course">
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </div>
 </body>

@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 61px;
+  padding-right: 121px;
+}
+
+.footer-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 729px;
+  flex-grow: 1;
+}
+
+.footer-text {
+  font-family: var(--font-family-red-hat-text);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-21);
+  color: var(--color-FFFFFF);
+  margin-left: 1px;
+}
+
+.footer-icon-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 137px;
+  height: 31px;
+}
+
+.footer-logo:hover {
+  width: 40px;
+  height: 40px;
+  transition: 0.6s;
+}
+
+.footer-link {
+  display: block;
+  height: 28px;
+}
+
+.footer-logo-1 {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-logo-2 {
+  width: 34px;
+  height: 34px;
+}
+
+.footer-logo-3 {
+  width: 32px;
+  height: 26px;
+}

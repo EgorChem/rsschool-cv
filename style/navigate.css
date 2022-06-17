@@ -1,11 +1,13 @@
 .navigate {
   max-width: 527px;
   flex-grow: 1;
+  margin-right: 32px;
 }
 
 .nav-element-wrapper {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .nav-element-link {
